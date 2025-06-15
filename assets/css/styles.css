@@ -127,12 +127,12 @@ i {
 .meal{
     background: #fff;
     border-radius: .5rem;
-    box-shadow: 0 0 15px -5px rgb(34, 34, 34, .25);
-    transition: box-shadow .1s ease-in-out;
+    box-shadow: 0 0 15px -5px rgba(34, 34, 34, .25);
+    transition: box-shadow .3s ease-in-out;
 }
 
 .meal:hover{
-    box-shadow: 0 0 15px -3px rgb(34, 34, 34, .25);
+    box-shadow: 0 0 15px 5px rgba(34, 34, 34, .25);
 }
 
 .meal-content{
